@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "trigger":{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"b.Wind\"]}"
+                }
+            }
+        }
+    },
+    "rewards":{
+        "function": "dim38:entity/boss/wind/k.whisper"
+    }
+}
