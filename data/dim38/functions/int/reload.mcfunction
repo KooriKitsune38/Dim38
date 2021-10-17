@@ -2,3 +2,4 @@
 tellraw @a [{"text":"Dim38 Reloaded!"}]
 
 # Scoreboards
+scoreboard objectives add dimIds dummy

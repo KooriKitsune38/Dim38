@@ -1,0 +1,6 @@
+{
+    "type": "minecraft:the_end",
+    "generator": {
+        "type": "minecraft:debug"
+    }
+}
