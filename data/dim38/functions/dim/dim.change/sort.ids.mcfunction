@@ -8,8 +8,5 @@ execute if score .id dimIds matches 2 in dim38:f_birch run tp ~ 1000 ~
 #> 3 - Desert (Debug)
 execute if score .id dimIds matches 3 in dim38:desert run tp ~ 1000 ~
 
-# Spread Players
-execute at @s run function dim38:dim/dim.change/find.air
-
-# Update Pos
-execute at @s run function dim38:dim/dim.change/new.pos
+# Adjust Position
+function dim38:dim/dim.change/adj.pos
